@@ -35,21 +35,87 @@
 # popValue = listContent.pop(listContent.index('f'))
 # print(listContent)
 # print(popValue)
+#
+# # 列表循环输出
+# animals = ['cat','dog','pig']
+# for animal in animals:
+#     print(animal)
+# print('\n')
+#
+# for animal in animals:
+#     print(animal)
+#     print(animal)
+# print('\n')
+#
+# for animal in animals:{
+#     print(animal),
+#     print(animal),
+#     print(animal)
+# }
+# print('\n')
+#
+# for rang in range(1,5):
+#     print(rang)
 
-# 列表循环输出
-animals = ['cat','dog','pig']
-for animal in animals:
-    print(animal)
-print('\n')
 
-for animal in animals:
-    print(animal)
-    print(animal)
-print('\n')
+# 打印1-20
+print('打印1-20')
+for int in range(1,21):
+    print(int)
 
-for animal in animals:{
-    print(animal),
-    print(animal),
-    print(animal)
-}
-print('\n')
+
+
+# 计算1-1000000的和
+print('\n\n计算1-1000000的和')
+print(sum(range(1,1000001)))
+
+print('\n\n计算1-1000000的最小值以及最大值')
+print(min(range(1,1000001)))
+print(max(range(1,1000001)))
+
+print('\n\n循环打印1-20中的所有奇数')
+for int in range(1,21,2):
+    print(int)
+
+
+
+
+print('\n\n生成一个可以被3整除的数组并使用for循环打印')
+for int in range(3,30,3):
+    print(int)
+
+print('\n\n生成1-10的立方，并用for循环打印')
+for int in range(1,10):
+    value = int ** 3
+    print(value)
+
+
+print('\n\n使用列表解析生成一个包含十个整数立方的列表')
+ints = [value ** 3 for value in range(1,10)]
+print(ints)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
